@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<br lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+  <form>
+    <h3>THÊM MỚI NHÂN VIÊN</h3>
+    <div>
+        <label for="userName">Họ và tên</label>
+        <input name="userName" id="userName" type="text">
+    </div>
+    <br>
+    <div>
+        <label for="dateOfBirth">Ngày sinh đầy đủ</label>
+        <input name="dateOfBirth" type="date">
+    </div>
+
+    <br></br>
+
+    <div>
+        <label for="month">Tháng và năm</label>
+        <input name="month" type="month">
+    </div>
+
+    <br></br>
+
+    <div>
+        <label for="time">Thời Gian</label>
+        <input name="time" type="time">
+    </div>
+
+    <br></br>
+
+    <div>
+        <label for="gender">Giới tính</label>
+        <input checked name="gender" type="radio"> Nam
+        <input  name="gender" type="radio"> Nữ
+        <input  name="gender" type="radio"> Khác
+    </div>
+
+    <br></br>
+
+    <div>
+        <label for="email">Email </label>
+        <input name="email" type="email">
+    </div>
+
+    <br></br>
+
+    <div>
+        <label for="password">Mật khẩu</label>
+        <input name="password" minlength="8" type="password">
+    </div>
+
+    <br></br>
+
+    <div>
+        <label name="" for="gioiThieuBanThan">Giới thiệu bản thân</label>
+        <textarea name="gioiThieuBanThan" id="" cols="30" rows="5"></textarea>
+    </div>
+
+    <br></br>
+
+    <div>
+        <label for="thanh-pho">Thành phố</label>
+        <select name="thanh-pho" id="thanh-pho">
+            <option value="tb">Thái Bình</option>
+            <option value="qn">Quảng Ninh</option>
+            <option value="pt">Phú Thọ</option>
+            <option value="th">Thanh Hóa</option>
+            <option value="bn">Bắc Ninh</option>
+            <option value="hn" selected>Hà Nội</option>
+        </select>
+    </div>
+
+    <br></br>
+
+    <div>
+        <action="taiLen" method="post" enctype="multipart/form-data">
+            <label for="fileInput">Chọn tệp</label>
+            <input type="file" id="fileInput" name="fileInput">
+    </div>
+
+    <br></br>
+
+    <div>
+        <label for="soThich">Sở thích</label>
+        <input name="soThich" type="checkbox">
+
+        <label for="code">Code</label>
+        <input name="code" type="checkbox">
+
+        <label for="choiGame">choigame</label>
+        <input name="choiGame" type="checkbox">
+
+        <label for="boiLoi">Bơi lội</label>
+        <input name="boiLoi" type="checkbox"> 
+
+        <label for="daBong">Đá Bóng</label>
+        <input name="daBong" type="checkbox"> 
+    </div>
+
+    <br></br>
+
+    <div>
+        <label for="points">tiến độ hoàn thành công việc</label>
+        <input type="range" id="points" name="points" min="0" max="10">
+    </div>
+
+    <br></br>
+
+    <div>
+        <label for="exp">Năm kinh nghiệm</label>
+        <input type="number" name="exp" min="1", max="10">
+    </div>
+
+    <br></br>
+
+    <div>
+        <label for="gsearch">Tìm kiếm</label>
+        <input type="search" id="gsearch" name="gsearch">
+    </div>
+
+    <br></br>
+
+    <div>
+        <label for="favcolor">màu sắc ưa thích</label>
+        <input type="color" id="favcolor" name="favcolor" value="#ff0000">
+    </div>
+
+    <br></br>
+    
+    <div>
+        <input type="button" value="Hủy">
+        <input type="reset" value="Làm mới">
+        <input type="submit" value="Gửi">
+    </div>
+</form>
+</body>
+</html>
